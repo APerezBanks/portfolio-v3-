@@ -1,0 +1,42 @@
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  gap: 10px;
+}
+#contact {
+  font-family: 'Arsenica', serif;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre el icono y el texto */
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: #0077b5; /* Color al pasar el mouse */
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+@media (max-width: 600px) {
+  #contact {
+    font-family: 'Arsenica', serif;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  .icon {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,53 @@
+.aboutme,
+.second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.sobre {
+  font-family: 'Arsenica', serif;
+  font-size: 5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.foto_desktop > img,
+.second > img {
+  width: 400px;
+  border-radius: 5px;
+}
+
+.parrafada {
+  margin: 1rem auto;
+  max-width: 600px;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.second > p {
+  width: 500px;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .sobre {
+    font-family: 'Arsenica', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .foto_desktop > img {
+    width: 180px;
+    min-height: auto;
+    border-radius: 5px;
+  }
+
+  .second img {
+    width: 150px;
+    height: 150px;
+  }
+}
