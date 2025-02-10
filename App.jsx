@@ -10,7 +10,6 @@ function App() {
     <>
       <Main />
       <About />
-      {/* ✅ Pasamos "data" como prop a Projects.jsx */}
       <Projects projects={data} />
       <Contact />
     </>

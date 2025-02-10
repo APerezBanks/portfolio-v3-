@@ -14,9 +14,16 @@ export default function Main() {
             alt='foto de perfil de Alex'
           ></img>
           <p>
-            “ lorem ipsum n ullamcorper odio. Vivamus risus urna, accumsan vitae
-            tellus eget, laoreet commodo velit. Nam vitae volutpat augue. Proin
-            facilisis dictum turpis, at bibendum purus ornare vel.
+            <strong id='hi'>Hi!</strong> Soy Alex, un desarrollador con
+            formación Full Stack, pero con una gran pasión por el Frontend.{' '}
+            <br />
+            Ubicado actualmente en la soleada ciudad de Benidorm <br />
+            Aquí encontrarás mis proyectos más recientes y formas de
+            contactarme. <br />
+            <strong>
+              ¡Explora, curiosea y si te gusta lo que ves, estaré encantado de
+              conectar contigo!
+            </strong>
           </p>
         </section>
 

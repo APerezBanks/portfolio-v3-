@@ -57,18 +57,22 @@ h3 {
   text-align: justify;
   max-width: 500px;
   padding: 1rem;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 h1 {
   font-family: 'Arsenica', serif;
-  font-size: 5rem;
+  font-size: 4.8rem;
 }
 
 h3 {
-  font-weight: 400;
+  font-weight: 200;
 }
 
+#hi {
+  font-size: 24px;
+}
 .navbar {
   display: flex;
   width: 700px;
@@ -82,6 +86,7 @@ h3 {
   display: flex;
   align-items: center;
   font-size: 18px;
+
   letter-spacing: 0.1rem;
   text-decoration: none;
   border-radius: 50%;
@@ -90,11 +95,11 @@ h3 {
   font-weight: 300;
   color: rgb(9, 9, 9);
   padding: 8px 14px;
-  transition: 0.1s;
+  /* transition: 0.3s ease-in-out; */
 }
 
 #a-aboutme {
-  background-color: #a2525d;
+  background-color: #a61fa19e;
 }
 
 #a-projects {
