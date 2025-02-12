@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa'; // 📌 Impor
 
 export default function Contact() {
   return (
-    <section id='contact'>
+    <section id='contact' className='contacMe'>
       <h2>Contact Me</h2>
 
       <div className='contact-links'>
@@ -11,7 +11,7 @@ export default function Contact() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FaLinkedin className='icon' /> Alex's LinkedIn
+          <FaLinkedin className='icon' /> LinkedIn
         </a>
 
         <a
@@ -19,11 +19,13 @@ export default function Contact() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <FaGithub className='icon' /> Alex's GitHub
+          <FaGithub className='icon' />
+          GitHub
         </a>
 
         <a href='mailto:alex@example.com'>
-          <FaEnvelope className='icon' /> My Email
+          <FaEnvelope className='icon' />
+          Email
         </a>
       </div>
     </section>

@@ -27,7 +27,22 @@ export default function About() {
           {' '}
           Code Nation
         </a>{' '}
-        para sumergirme de lleno en el mundo del desarrollo web."
+        para sumergirme de lleno en el mundo del desarrollo web.
+        <br />
+        <br />
+        Recientemente terminé un bootcamp de programación Full Stack con
+        <a
+          id='codenation'
+          href='https://www.hackaboss.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          {' '}
+          Hack A Boss
+        </a>{' '}
+        Boss, y ahora estoy buscando activamente trabajo como desarrollador
+        Front End. Estoy emocionado por dar el siguiente paso en mi carrera y
+        aplicar todo lo aprendido en proyectos reales."
       </p>
 
       <div className='second'>

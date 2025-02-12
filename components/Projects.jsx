@@ -7,10 +7,11 @@ export default function Projects({ projects }) {
           <div key={project.id} className='project-card'>
             <img src={project.img.src} alt={project.img.alt} />
             <h3>{project.title}</h3>
-            <p>
-              <strong>Tecnologías:</strong> {project.tecnolgies}
-            </p>
-            <p>{project.text}</p>
+            <p className='tecnologias'>{project.tecnolgies}</p>
+            <p className="descripcion_p">{project.text}</p>
+            <a href={project.link} target='_blank' rel='noopener noreferrer'>
+              Ver proyecto
+            </a>
           </div>
         ))}
       </div>

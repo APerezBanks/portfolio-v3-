@@ -3,8 +3,9 @@
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: space-evenly;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
 #project_tittle {
@@ -22,7 +23,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
-  background: white;
+  background: rgb(224, 224, 224);
 }
 
 .project-card img {
@@ -33,9 +34,17 @@
 .project-card h3 {
   margin-top: 10px;
   font-size: 20px;
+  font-weight: 500;
 }
 
-.project-card p {
+.tecnologias {
+  font-weight: 400;
+  text-align: center;
   font-size: 14px;
-  color: #555;
+  padding: 8px;
+}
+
+.project-card,
+.descripcion_p {
+  text-align: justify;
 }
